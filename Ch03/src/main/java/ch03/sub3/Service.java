@@ -19,7 +19,8 @@ public class Service {
 		System.out.println("Core concern - update...");
 	}
 	
-	public void delete(int no, String name) {
-		System.out.println("Core concern - delete...");
+	public void delete(int seq, String uid) {
+		System.out.println("핵심관심 - delete...");
+		char ch = uid.charAt(1);
 	}
 }
