@@ -1,0 +1,17 @@
+package ch03.sub3;
+
+/*
+ * 날짜 : 2023/09/19
+ * 이름 : 강윤수
+ * 내용 : 어노테이션 기반 AOP 실습
+ */
+
+public class AnnotationAOPTest {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}
