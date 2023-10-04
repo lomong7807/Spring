@@ -34,7 +34,7 @@ public interface User1Repository extends JpaRepository<User1Entity, String>{
 	public List<User1Entity> findUser1EntityByOrderByName();
 	public List<User1Entity> findUser1EntityByOrderByAgeAsc();
 	public List<User1Entity> findUser1EntityByOrderByAgeDesc();
-	public List<User1Entity> findUser1EntityByOrderByAgeGreaterThanOrderByAgeDesc(int age);
+	public List<User1Entity> findUser1EntityByAgeGreaterThanOrderByAgeDesc(int age);
 	
 	public int countUser1EntityByUid(String uid);
 	public int countUser1EntityByName(String name);
