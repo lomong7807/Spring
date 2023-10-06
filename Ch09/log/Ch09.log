@@ -12240,3 +12240,35 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2023-10-05T12:47:15.728+09:00  INFO 4612 --- [Thread-59] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-10-05T12:47:15.729+09:00  INFO 4612 --- [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
 2023-10-05T12:47:15.837+09:00  INFO 4612 --- [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2023-10-05T12:47:15.878+09:00  INFO 4612 --- [restartedMain] kr.ch09.Ch09Application                  : Starting Ch09Application using Java 17.0.8.1 with PID 4612 (C:\Users\Java\Desktop\Workspace\Spring\Ch09\target\classes started by Java in C:\Users\Java\Desktop\Workspace\Spring\Ch09)
+2023-10-05T12:47:15.878+09:00  INFO 4612 --- [restartedMain] kr.ch09.Ch09Application                  : No active profile set, falling back to 1 default profile: "default"
+2023-10-05T12:47:15.930+09:00  INFO 4612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-05T12:47:15.933+09:00  INFO 4612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-10-05T12:47:15.944+09:00  WARN 4612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.ch09]' package. Please check your configuration.
+2023-10-05T12:47:15.967+09:00  INFO 4612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-05T12:47:15.967+09:00  INFO 4612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-05T12:47:15.967+09:00  INFO 4612 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-05T12:47:15.972+09:00  INFO 4612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Ch09]   : Initializing Spring embedded WebApplicationContext
+2023-10-05T12:47:15.972+09:00  INFO 4612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 93 ms
+2023-10-05T12:47:15.986+09:00  INFO 4612 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-05T12:47:15.991+09:00  INFO 4612 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-05T12:47:15.991+09:00  INFO 4612 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-05T12:47:15.991+09:00  INFO 4612 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2023-10-05T12:47:16.105+09:00  INFO 4612 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4867a5dc
+2023-10-05T12:47:16.106+09:00  INFO 4612 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2023-10-05T12:47:16.110+09:00  WARN 4612 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-05T12:47:16.118+09:00  INFO 4612 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-05T12:47:16.125+09:00  INFO 4612 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-05T12:47:16.153+09:00  INFO 4612 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-05T12:47:16.179+09:00  WARN 4612 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-05T12:47:16.185+09:00  INFO 4612 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-10-05T12:47:16.203+09:00  INFO 4612 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@45f153d6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ad8d7f2, org.springframework.security.web.context.SecurityContextHolderFilter@49c3702e, org.springframework.security.web.header.HeaderWriterFilter@664f3d2b, org.springframework.security.web.authentication.logout.LogoutFilter@61578636, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@184a00df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28700367, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c7e04a1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23e49b1a, org.springframework.security.web.access.ExceptionTranslationFilter@40c88840, org.springframework.security.web.access.intercept.AuthorizationFilter@159394df]
+2023-10-05T12:47:16.224+09:00  INFO 4612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-05T12:47:16.228+09:00  INFO 4612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Ch09'
+2023-10-05T12:47:16.230+09:00  INFO 4612 --- [restartedMain] kr.ch09.Ch09Application                  : Started Ch09Application in 0.36 seconds (process running for 4451.707)
+2023-10-05T12:47:16.231+09:00  INFO 4612 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-05T17:48:20.817+09:00  INFO 4612 --- [RMI TCP Connection(377)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-05T17:48:20.845+09:00  INFO 4612 --- [RMI TCP Connection(377)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-05T17:48:20.859+09:00  INFO 4612 --- [RMI TCP Connection(377)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-05T17:48:20.869+09:00  INFO 4612 --- [RMI TCP Connection(377)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2023-10-05T17:48:20.978+09:00  INFO 4612 --- [RMI TCP Connection(377)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
